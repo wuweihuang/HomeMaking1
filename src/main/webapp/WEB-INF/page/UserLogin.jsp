@@ -10,7 +10,7 @@
 <body>
 <form action="admin/userlogin.action" method="post">
     账号:<input type="text" name="userid"><p/>
-    密码:<input type="password" name="pwd"><p/>
+    密码:<input type="password" name="userpwd"><p/>
     <input type="submit" value="登录">
 </form>
     

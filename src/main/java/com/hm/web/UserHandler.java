@@ -22,8 +22,7 @@ public class UserHandler {
     @RequestMapping(value = "/userlogin.action")
     public ModelAndView userlogin(HttpServletRequest request, User user)
     {
-        User u = biz.userLogin(user.getUserid(),user.getPwd());
-        System.out.println(u);
+        User u = biz.userLogin(user.getUserid(),user.getUserpwd());
         if(null!=u)
         {
             request.getSession().setAttribute("user",u);

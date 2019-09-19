@@ -4,6 +4,6 @@
 <mapper namespace="com.hm.mapper.UserMapper">
 
     <select id="userLogin" resultType="com.hm.entity.User">
-        select * from tbluser where userid=#{userid} and pwd=#{pwd}
+        select * from tbluser where userid=#{userid} and userpwd=#{pwd}
     </select>
 </mapper>

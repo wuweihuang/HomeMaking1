@@ -2,11 +2,11 @@ package com.hm.entity;
 
 public class User {
     private String userid;
-    private String pwd;
+    private String userpwd;
 
-    public User(String userid, String pwd) {
+    public User(String userid, String userpwd) {
         this.userid = userid;
-        this.pwd = pwd;
+        this.userpwd = userpwd;
     }
 
     public User() {
@@ -20,11 +20,11 @@ public class User {
         this.userid = userid;
     }
 
-    public String getPwd() {
-        return pwd;
+    public String getUserpwd() {
+        return userpwd;
     }
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
+    public void setUserpwd(String userpwd) {
+        this.userpwd = userpwd;
     }
 }
